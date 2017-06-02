@@ -1,0 +1,33 @@
+﻿body,h1,h2,h3,h4,p,ul,div,span,selection,ol,a,input,strong,img,textarea,dl,dt,dd,lable,figure,figcaption
+{
+    margin:0;
+    padding:0;
+}
+strong,h1,h2,h3,h4
+{ 
+    font-weight:normal;
+  }
+a
+{
+    text-decoration:none;
+    }
+li
+{
+    list-style:none;
+    
+    }
+img
+{
+    border:none;
+    }
+input,textarea
+{
+    outline:none;
+    border:none;
+}
+body
+{
+    font-size:15px;
+    font-weight: 300;
+    font-family: "Microsoft YaHei","微软雅黑","Trebuchet MS",Arial,Verdana,Tahoma,sans-serif;
+ }

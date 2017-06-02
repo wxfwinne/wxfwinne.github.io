@@ -1,0 +1,230 @@
+﻿
+
+.body-content-wrapper
+{
+    width:1100px;
+    margin: 40px auto 0;
+    background: rgba(200, 247, 227, 0.33);
+    }
+#main-left
+{
+    float:left; 
+    width:770px;
+    
+    }
+.article
+{
+    width: 770px;
+    height: 200px;
+    margin-bottom: 10px;
+    background:#fff;
+    }    
+.article-top
+{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 0;
+    padding-top: 5px;
+    }
+.article-top span
+{
+    float: left;
+    position: relative;
+     padding: 0 5px; 
+    margin: 0 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    background: #de105c;
+    }
+.article-top .triangle
+{
+    position: absolute;
+    right: -14px;
+    top: 10px;
+    height: 0;
+    width: 0;
+    border: 7px solid #de105c;
+    border-color: transparent transparent transparent #de105c;
+    }
+.article-top h2
+{
+   float: left;
+    margin-left: 10px;
+    }
+.article-top h2 a
+{
+    font-size:18px;
+    font-weight:bold;
+    color:#333;
+    }
+.article-top h2 a:hover
+{
+    color:#2688eb;
+    }
+.article-content
+{
+    width: 100%;
+    height: 132px;
+    }
+.article-content a
+{
+    float:left;
+    display:inline-block;
+    overflow:hidden;
+    width: 150px;
+    height: 120px;    
+    margin: 5px 10px 0 10px;
+    }
+
+.article-content img
+{
+    float: left;
+    width: 150px;
+    height: 120px;
+    transition:0.5s;
+    /* margin-top: 5px; */
+    
+    }
+.article-content:hover img
+{
+    -webkit-transform:scale(1.1);
+    }
+.article-content p
+{
+    float: left;
+    width: 570px;
+    height: 110px;
+    line-height: 28px;
+    padding: 2px;
+    margin: 8px 0 0 5px;
+    color:#555;
+    }
+.article-bottom
+{
+    float: right;
+    width: 46%;
+    height:28px;
+    }
+.article-bottom span
+{
+    height: 28px;
+    line-height: 28px;
+    margin-left: 14px;
+    font-size: 16px;
+    color: #333;
+    }
+.article-bottom i
+{
+     padding-right:4px;
+     font-weight: bold;
+    }
+.article-bottom span:nth-child(3) i{ padding:0;}
+    
+ /***************************************************/
+ #main-right
+ {
+     float:right;
+     width:300px;
+     
+     
+     }
+#main-right>div:nth-child(1)
+{
+    background: #fff;
+    padding-bottom: 6px;
+    } 
+#main-right>div:nth-child(1)>span
+{
+    display:block;
+    height:250px;
+    width:250px;
+    margin:5px auto;
+    background:url("../images/background/study_girl.png") no-repeat;
+    }
+#main-right>div:nth-child(1)>p
+{
+    padding: 0 10px;
+    margin-top: 10px;
+    line-height: 22px;
+    text-indent: 2em;
+    color: #313131;
+    } 
+#main-right>div:nth-child(1)>p:nth-of-type(2)
+{
+    margin-top: 0;
+    } 
+/****************************************/
+.artical_rec
+{
+    margin-top: 10px;
+    background: #fff;
+    }
+.artical_rec h3
+{
+    padding: 10px 5px;
+    /* margin: 10px 5px; */
+    font-weight: bold;
+    font-size: 20px;
+    color: #de105c;
+    }
+.artical_rec h3 i
+{
+    padding-right: 6px;
+    }
+.artical_rec ul
+{
+    padding-bottom: 10px;
+    }
+.artical_rec li
+{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    height: 30px;
+    line-height: 30px;
+    }
+.artical_rec li i
+{
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #de105c;
+    transition:1s;
+    }
+.artical_rec li:hover i
+{
+    display:inline-block;
+    -webkit-transform:rotate(180deg);
+    }
+.artical_rec li a
+{
+    color:#795548;
+    transition:1s;
+    }
+.artical_rec li a:hover 
+{
+    display:inline-block;
+    color:#009688;
+    font-size: 16px;
+    -webkit-transform:translateY(4px);
+    }
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
