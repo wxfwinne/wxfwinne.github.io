@@ -1027,11 +1027,19 @@
 {
     height:170px;
     width:240px;
-    transition:1s;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	-ms-transition:1s;
+    -o-transition:1s;
+	transition:1s;
     }
 #HTML5-games img:hover
 {
     -webkit-transform:scale(0.9);
+	-moz-transform:scale(0.9);
+	-ms-transform:scale(0.9);
+	-o-transform:scale(0.9);
+	transform:scale(0.9);
     }
 #HTML5-games figcaption
 {

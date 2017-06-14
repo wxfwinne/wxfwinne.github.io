@@ -1,0 +1,86 @@
+body{
+	background:rgba(36, 41, 71, 0.93);
+}
+
+.wrapper{
+	width: 650px;
+	margin: 100px auto;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.21);
+}
+.header-info{
+	width: 650px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+     color: #fff;
+    background: rgba(3, 169, 244, 0.56);
+   
+}
+.header-info p{}
+#reg-detail{
+	width: 616px;
+    padding: 16px;
+}
+#reg-detail form{
+	margin: 0 10px;
+}
+#reg-detail label{
+	display: inline-block;
+    width: 70px;
+    text-align: right;
+    color: #fff;
+}
+#reg-detail input[type="text"],#reg-detail input[type="password"]{
+	width: 210px;
+    height: 28px;
+    line-height: 28px;
+    margin: 12px 6px 0;
+}
+#reg-detail input[type="submit"]{
+	width: 90px;
+    height: 30px;
+    line-height: 30px;
+    margin: 34px 0 4px 135px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #2186F3;
+    color: #fff;
+}
+#reg-detail p{
+	display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
+}
+#reg-detail i{
+    margin-right: 4px;
+}
+#reg-detail span{
+	margin-left: 80px;
+    color: #D6C8C8;
+}
+#reg-detail .intensity{
+    height: 28px;
+    line-height: 28px;
+    margin: 2px 0 0 78px;
+}
+#reg-detail em{
+    padding: 2px 27px;
+    color: #fff;
+    background: rgba(255, 152, 0, 0.52);
+}
+#reg-detail .active{
+    background: rgba(255, 152, 0, 0.9);
+}
+#reg-detail .icon-tishi{
+	color: rgb(255, 172, 7);
+}
+#reg-detail .icon-cuowu1{
+	color: rgba(255, 7, 7, 0.83);
+}
+#reg-detail .icon-chenggong2icon{
+	color: rgb(7, 255, 100);
+}
+
+
