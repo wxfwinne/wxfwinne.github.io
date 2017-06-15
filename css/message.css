@@ -94,6 +94,10 @@
     margin-left:15px;
      color:#888;
      font-size:14px;
+    cursor: default;
+}
+.comment-bottom span:hover{
+    color:#333;
 }
  #page
  {
@@ -228,4 +232,4 @@
         a:hover
         {
             color: purple;
-        }
+        }
