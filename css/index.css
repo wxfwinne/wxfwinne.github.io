@@ -783,7 +783,6 @@
      width:140px;
      height:150px;
      margin:10px 5px 10px 8px;
-     cursor:pointer;
      box-shadow: 2px 2px 2px #a8bcbf;
     }
 #basic-book img,#js-book img
@@ -802,6 +801,7 @@
     font-size: 12px;
     background-image: linear-gradient(to bottom,rgba(255,255,255,0.8),#FFFFFF);
     transition: all 0.5s ease-in-out;
+    cursor: default;
     }
 #basic-book .bookname
 {
